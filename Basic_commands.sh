@@ -50,6 +50,7 @@ git merge "nombre branch a traer"
 git push --set-upstream origin ramaB
 # Eliminar un branch
 git branch -d "nombre del branch a eliminar"
+git push origin --delete "nombre del branch a eliminar"
 
 # ------ Clonar repositorios
 git clone "URL to clone"
