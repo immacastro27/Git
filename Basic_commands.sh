@@ -37,3 +37,8 @@ git commit -m "comentario del cambio"
 git pull
 
 
+# ------ Branches
+# Look all branches
+git branch
+# Create a new branch
+git checkout -b "Nombre branch"
