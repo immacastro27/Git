@@ -42,3 +42,7 @@ git pull
 git branch
 # Create a new branch
 git checkout -b "Nombre branch"
+# change between branches
+git checkout "Nombre del branch"
+# mezclar un brach junto a otro
+git merge "nombre branch a traer"
