@@ -2,6 +2,8 @@
 git --version
 # Muestra estado del repositorio en PC
 git status
+# Status with less info: M: Modified, ??: archivo no modificado, A: Archivo agregado
+git status -m
 
 # ------- Configurar git user
 git config --global user.name "Jose Castro"
