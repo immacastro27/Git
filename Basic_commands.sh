@@ -48,3 +48,11 @@ git checkout "Nombre del branch"
 git merge "nombre branch a traer"
 # Subir un branch al repositorio de Git
 git push --set-upstream origin ramaB
+# Eliminar un branch
+git branch -d "nombre del branch a eliminar"
+
+# ------ Clonar repositorios
+git clone "URL to clone"
+
+# ------ Fetch repository without merging
+git fetch
