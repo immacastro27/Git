@@ -1,5 +1,7 @@
 # ------- Comandos basicos
 git --version
+# Muestra estado del repositorio en PC
+git status
 
 # ------- Configurar git user
 git config --global user.name "Jose Castro"
@@ -17,3 +19,9 @@ git congif -h
 # ------ Basic commands
 # Start using the repository
 git init
+# Anadir archivos al stage | 1.UserPC | [2.Stage] | 3.Commit | 4.Server |
+git add "insert_files_name1" "insert_files_name2"
+# Anadir archivos al stage | 1.UserPC | 2.Stage | [3.Commit] | 4.Server |
+git commit -m "inser comment"
+# Anadir archivos al stage | 1.UserPC | 2.Stage | 3.Commit | [4.Server] |
+git push
