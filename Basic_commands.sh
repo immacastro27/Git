@@ -25,3 +25,13 @@ git add "insert_files_name1" "insert_files_name2"
 git commit -m "inser comment"
 # Anadir archivos al stage | 1.UserPC | 2.Stage | 3.Commit | [4.Server] |
 git push
+
+# ------ Ignore files to GIT
+# create a file named .gitignore and put the name of the files to ignore: "name.ext, directory/"
+
+# ------ Remove giles from git
+git rm "nombre archivo o directorio"
+git commit -m "comentario del cambio"
+git pull
+
+
