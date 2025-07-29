@@ -46,3 +46,5 @@ git checkout -b "Nombre branch"
 git checkout "Nombre del branch"
 # mezclar un brach junto a otro
 git merge "nombre branch a traer"
+# Subir un branch al repositorio de Git
+git push --set-upstream origin ramaB
